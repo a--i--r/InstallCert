@@ -5,12 +5,12 @@ echo **** 証明書インストール処理: %date% %time%
 SETLOCAL enabledelayedexpansion
 
 rem -- SAMPLE1証明書のファイル名
-set SAMPLE1_CERT_NAME=sample1.cer
+set SAMPLE1_CERT_NAME=testdkbudget.japaneast.cloudapp.azure.com.cer
 set LOG_FILE=result.log
 
 rem -- SAMPLE1証明書のシリアル番号, サブジェクト
 set SAMPLE1_CERT_SERIAL=00a371061ed991a85a
-set SAMPLE1_CERT_SERIAL_SUBJECT="sample1"
+set SAMPLE1_CERT_SERIAL_SUBJECT="testdkbudget.japaneast.cloudapp.azure.com"
 
 rem -- カレントディレクトリを基準とする
 cd /d %~dp0
